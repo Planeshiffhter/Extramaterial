@@ -1,0 +1,54 @@
+LILY TAKES THE TRAIN — CREDITS AND SOURCE NOTES
+
+CHARACTER AND POSE LIBRARY
+
+Ellie character and pose library by Blender Studio.
+Source: https://www.blender.org/download/demo-files/
+Publisher download:
+https://download.blender.org/demo/asset-bundles/ellie-pose-library/ellie-pose-library-v2.0.0.zip
+
+The publisher's asset listing and the included "README Animation.txt" and
+"README Pose Library.txt" explicitly identify the license as CC-BY. A
+specific CC-BY license version was not stated in those included README
+texts, so this package does not assign a version to that license.
+
+Adapted for this project as Lily: clothing and hair recoloring, selected
+accessories hidden, new dialogue/facial timing, new story gestures, and use
+in a new home environment and camera sequence. The original character and
+pose-library source is credited; this adaptation is not endorsed by Blender
+Studio. Preserve attribution when redistributing the adapted character,
+project, or rendered video, and follow the applicable CC-BY terms.
+
+Suggested public credit:
+"Ellie character and pose library by Blender Studio (CC-BY), adapted as Lily.
+https://www.blender.org/download/demo-files/"
+
+BLENDER MCP
+
+Blender MCP by Siddharth Ahuja and contributors.
+Repository: https://github.com/ahujasid/blender-mcp
+License: MIT
+License source: https://github.com/ahujasid/blender-mcp/blob/main/LICENSE
+
+The local MCP bridge was used to control Blender during production. No MCP
+server or external video-generation plugin is needed to open or rerender
+the saved .blend project. The MCP program itself is not redistributed in
+this project package. Its MIT license does not replace the character's
+CC-BY license.
+
+OTHER PROJECT COMPONENTS
+
+Story dialogue: supplied by the user.
+Narration: generated standard female English voice (en-US-JennyNeural),
+using the supplied dialogue; no reference-speaker voice cloning was used.
+Home environment, story props, camera sequence, caption assembly, and new
+animation assembly: created for this project.
+
+The user's reference video was used to guide the visual presentation and
+caption treatment. Its footage and soundtrack were not copied into this
+film. The project is a new adaptation in a similar general presentation;
+it does not contain the original reference character or its original rig.
+
+FONT
+Noto Sans Bold, The Noto Project Authors, SIL Open Font License1.1.
+The bundled Fonts/NOTO_LICENSE.txt retains the font copyright and license.
