@@ -1,0 +1,46 @@
+{
+  "project": "Lily_V2_CPU_Lookdev.blend",
+  "blender_version": "4.3.2",
+  "control_connection": "Local upstream Blender MCP over loopback",
+  "gpu_connected_or_used": false,
+  "status": "CPU look-development prototype; full revised film unfinished",
+  "scenes": [
+    {
+      "name": "01 Home \u2014 Reference Lookdev",
+      "objects": 485,
+      "device": "CPU",
+      "engine": "CYCLES",
+      "camera": "Home hero"
+    },
+    {
+      "name": "02 Station \u2014 Reference Lookdev",
+      "objects": 1278,
+      "device": "CPU",
+      "engine": "CYCLES",
+      "camera": "Station hero"
+    },
+    {
+      "name": "03 Train Interior \u2014 Environment Lookdev",
+      "objects": 1247,
+      "device": "CPU",
+      "engine": "CYCLES",
+      "camera": "Train interior"
+    },
+    {
+      "name": "04 Station Exterior \u2014 Environment Lookdev",
+      "objects": 1247,
+      "device": "CPU",
+      "engine": "CYCLES",
+      "camera": "Station exterior"
+    }
+  ],
+  "body_bones": 54,
+  "face_properties": {
+    "jaw_open": 0,
+    "mouth_round": 0,
+    "smile": 0.1,
+    "blink": 0
+  },
+  "missing_external_images": [],
+  "missing_external_fonts": []
+}

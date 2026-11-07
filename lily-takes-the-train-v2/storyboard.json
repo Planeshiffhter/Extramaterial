@@ -1,0 +1,450 @@
+{
+  "title": "Lily Takes the Train — version2 storyboard",
+  "duration_seconds": 55.0,
+  "timeline_fps": 24,
+  "frame_start": 1,
+  "frame_end": 1320,
+  "dialogue_policy": "Preserve all 12 original user lines exactly. Existing equal 55/12-second cues are retained; shot sub-beats can change inside each cue.",
+  "visual_direction": "Mature adult woman; shoulder-length loose dark wavy hair; sage knit pullover, full-length jeans and everyday shoes; warm soft photographic 3D lighting, restrained acting, native-frame animation.",
+  "location_convention": "Shots 3 and 4 are illustrative destination/schedule cutaways with Lily absent; present action returns home for the 9:00 clock. After shot 10, a clear montage cut advances actual travel to the station. The film is a 55-second story montage, not 55 seconds of real elapsed journey time.",
+  "continuity": {
+    "destination": "Greenfield",
+    "scheduled_departure": "10:30",
+    "platform": "2",
+    "home_current_time": "09:00",
+    "outfit": "One consistent sage pullover, full-length blue jeans and understated shoes.",
+    "bag": "Same small cream bag throughout; wallet packed in shot 6, bottle packed in shot 9, phone packed in shot 10; contents never reset.",
+    "phone": "Show Anna photo in shot 2, set down; collect in shot 6; timetable in shot 7, set down to free hand; message in shot 10, then pack.",
+    "prop_contact": "Test real hand support and grip paths before final animation. No floating props or hidden known contact errors.",
+    "train_safety": "Train stationary with open door for boarding; no departure until Lily is safely aboard and doors are closed."
+  },
+  "cpu_preview_gate": [
+    "adult character neutral/smile/three-quarter/full-body sheet",
+    "reference-matched home hero frame",
+    "Greenfield town/station establish",
+    "platform hero frame with same Lily",
+    "train doorway/interior frame",
+    "packing contact strip",
+    "expression and native-motion test"
+  ],
+  "shots": [
+    {
+      "shot": 1,
+      "start_seconds": 0.0,
+      "end_seconds": 4.583333,
+      "duration_seconds": 4.583333,
+      "speaker": "Lily",
+      "dialogue": "Good morning! Today, I am taking the train.",
+      "existing_audio_speech_start": 0.15,
+      "existing_audio_speech_end": 3.871125,
+      "location": "Home: sunlit living-room/entry console",
+      "location_role": "present action",
+      "visual": "Adult Lily, waist-up left of center, greets the viewer. Her small cream bag, phone and wallet sit on a reachable entry console; soft kitchen/living-room depth is visible behind.",
+      "camera": {
+        "type": "medium hero portrait",
+        "lens_mm": 55,
+        "composition": "Face at x0.35; eye line y0.28; head-to-waist framing; bag/action space on right",
+        "focus": "eyes, gentle background softness"
+      },
+      "actions": [
+        "Small open-hand greeting, relaxed elbow and warm smile.",
+        "At the end of the line Lily glances toward the phone."
+      ],
+      "needed_assets": [
+        "adult Lily in final sage pullover and jeans",
+        "home entry/living set",
+        "small bag",
+        "phone",
+        "wallet"
+      ],
+      "critical_checks": [
+        "Adult face/body silhouette is established in the first frame.",
+        "No large repetitive arm swing or permanently surprised eyes."
+      ],
+      "lookdev_priority": "required hero look-development still"
+    },
+    {
+      "shot": 2,
+      "start_seconds": 4.583333,
+      "end_seconds": 9.166667,
+      "duration_seconds": 4.583334,
+      "speaker": "Lily",
+      "dialogue": "I am going to visit my sister, Anna.",
+      "existing_audio_speech_start": 4.733333,
+      "existing_audio_speech_end": 6.937124,
+      "location": "Home: entry console, Anna contact/photo insert",
+      "location_role": "present action",
+      "visual": "Over Lily's shoulder, a clearly readable contact/photo of her adult sister Anna fills the phone. A brief warm reaction from Lily links the picture to the relationship.",
+      "camera": {
+        "type": "over-shoulder phone close-up, optional reaction reverse",
+        "lens_mm": 65,
+        "composition": "Phone in lower/right central field; Anna photo and name clear; Lily cheek/shoulder gives scale",
+        "focus": "screen and holding fingers"
+      },
+      "actions": [
+        "Lily picks up phone and opens Anna contact/photo.",
+        "Show a friendly adult portrait in the same visual style; no extra spoken line.",
+        "Lily sets the phone back on the console before the destination cutaways."
+      ],
+      "needed_assets": [
+        "Anna contact/photo still with distinct adult appearance",
+        "consistent phone UI",
+        "home console"
+      ],
+      "critical_checks": [
+        "Anna appears on the phone, not as an unexplained second person in Lily's home.",
+        "Screen remains readable and fingers actually support the phone."
+      ],
+      "lookdev_priority": "phone/hand test still"
+    },
+    {
+      "shot": 3,
+      "start_seconds": 9.166667,
+      "end_seconds": 13.75,
+      "duration_seconds": 4.583333,
+      "speaker": "Lily",
+      "dialogue": "She lives in a town called Greenfield.",
+      "existing_audio_speech_start": 9.316667,
+      "existing_audio_speech_end": 11.386167,
+      "location": "Greenfield: town square or residential station approach",
+      "location_role": "illustrative destination cutaway; Lily remains at home",
+      "visual": "Warm morning view of a small town with a readable GREENFIELD sign, modest brick/cream buildings, trees and an inviting residential street. A house/door detail can suggest Anna's home without needing a second animated rig.",
+      "camera": {
+        "type": "gentle establishing wide",
+        "lens_mm": 45,
+        "composition": "Town sign in foreground third; layered street/buildings behind; enough depth to feel like a place",
+        "focus": "sign and near town architecture"
+      },
+      "actions": [
+        "Slow, restrained camera drift or nearly static establishing image.",
+        "Keep Lily absent so this reads as a destination illustration, not her physical arrival."
+      ],
+      "needed_assets": [
+        "modular small-town exterior",
+        "Greenfield sign",
+        "trees/benches/street dressing",
+        "optional Anna house detail"
+      ],
+      "critical_checks": [
+        "Greenfield spelling matches every later phone and board.",
+        "Town scene has readable depth and architecture rather than a flat backdrop."
+      ],
+      "lookdev_priority": "required town look-development still"
+    },
+    {
+      "shot": 4,
+      "start_seconds": 13.75,
+      "end_seconds": 18.333333,
+      "duration_seconds": 4.583333,
+      "speaker": "Lily",
+      "dialogue": "My train leaves at ten thirty this morning.",
+      "existing_audio_speech_start": 13.9,
+      "existing_audio_speech_end": 16.24075,
+      "location": "Station: departure board and platform/train insert",
+      "location_role": "illustrative scheduled-service cutaway; Lily remains at home",
+      "visual": "A legible departure board reads GREENFIELD | 10:30 | PLATFORM 2. Beyond it, a shelter, platform and a stationary regional passenger train establish the trip visually.",
+      "camera": {
+        "type": "departure board medium insert with train context",
+        "lens_mm": 55,
+        "composition": "Board in upper/central field, train windows/door and platform recognizable behind; lower area reserved for captions",
+        "focus": "scheduled 10:30 and destination"
+      },
+      "actions": [
+        "Subtle board illumination or small background station activity.",
+        "Use a scheduled departure display, not a present-time clock.",
+        "Lily does not appear in this early station cutaway."
+      ],
+      "needed_assets": [
+        "station platform/shelter",
+        "departure board",
+        "regional train with windows and doors",
+        "platform 2 signage"
+      ],
+      "critical_checks": [
+        "10:30 is clearly the departure time.",
+        "No current clock contradicts the next shot's home time of 9:00.",
+        "The train is recognizable rather than a featureless wall."
+      ],
+      "lookdev_priority": "required station/board look-development still"
+    },
+    {
+      "shot": 5,
+      "start_seconds": 18.333333,
+      "end_seconds": 22.916667,
+      "duration_seconds": 4.583334,
+      "speaker": "Lily",
+      "dialogue": "It is nine o'clock now. I have time.",
+      "existing_audio_speech_start": 18.483333,
+      "existing_audio_speech_end": 21.814875,
+      "location": "Home: wall clock and Lily reaction",
+      "location_role": "present action resumes at 9:00",
+      "visual": "A clean clock insert shows 9:00, then Lily in a relaxed three-quarter view near the entry console. The room matches the first shot.",
+      "camera": {
+        "type": "clock detail followed by medium profile",
+        "lens_mm": 65,
+        "composition": "Clock face unobstructed; reaction returns to the established home orientation",
+        "focus": "clock hands, then Lily eyes"
+      },
+      "actions": [
+        "Clock hour hand points to 9; minute hand to 12.",
+        "Lily gives a small relieved smile and calm nod, rather than checking anxiously."
+      ],
+      "needed_assets": [
+        "home wall clock",
+        "same home set",
+        "adult Lily"
+      ],
+      "critical_checks": [
+        "Clock reads exactly 9:00.",
+        "The cut back home is unmistakable after the illustrative station insert."
+      ],
+      "lookdev_priority": "clock readability/frame test"
+    },
+    {
+      "shot": 6,
+      "start_seconds": 22.916667,
+      "end_seconds": 27.5,
+      "duration_seconds": 4.583333,
+      "speaker": "Lily",
+      "dialogue": "First, I need my phone and my wallet.",
+      "existing_audio_speech_start": 23.066667,
+      "existing_audio_speech_end": 25.396,
+      "location": "Home: entry console and open small bag",
+      "location_role": "present action",
+      "visual": "An angled medium close-up links Lily's torso/hands with the phone, wallet and open bag. She collects what she needs with economical adult movement.",
+      "camera": {
+        "type": "hands-and-torso medium close-up",
+        "lens_mm": 60,
+        "composition": "Phone, wallet and bag opening all visible in one working area; avoid cropping wrists",
+        "focus": "prop contact and bag rim"
+      },
+      "actions": [
+        "Lily picks up the phone in her right hand.",
+        "She takes the wallet in her left hand and places it inside the bag.",
+        "The phone remains in her right hand for the next timetable shot."
+      ],
+      "needed_assets": [
+        "phone",
+        "wallet",
+        "small soft bag with real opening",
+        "tested hand grip controls"
+      ],
+      "critical_checks": [
+        "The wallet does not teleport or reset outside the bag later.",
+        "Both hands have natural curved fingers and supported props."
+      ],
+      "lookdev_priority": "required hand/prop contact test"
+    },
+    {
+      "shot": 7,
+      "start_seconds": 27.5,
+      "end_seconds": 32.083333,
+      "duration_seconds": 4.583333,
+      "speaker": "Lily",
+      "dialogue": "Here are the train times on my phone.",
+      "existing_audio_speech_start": 27.65,
+      "existing_audio_speech_end": 29.562417,
+      "location": "Home: phone timetable close-up",
+      "location_role": "present action",
+      "visual": "Phone in Lily's hand shows a simple timetable: Greenfield, departure 10:30, platform 2. The same case, hand and room maintain continuity.",
+      "camera": {
+        "type": "over-shoulder or hand-held phone macro",
+        "lens_mm": 65,
+        "composition": "Screen large enough for one glance; caption panel does not cover 10:30",
+        "focus": "screen and near fingers, sufficient depth for legibility"
+      },
+      "actions": [
+        "A small thumb tap or glance confirms the service.",
+        "During the pause after the spoken phrase Lily places the phone back on the console, freeing her right hand."
+      ],
+      "needed_assets": [
+        "same phone and departure UI",
+        "home console"
+      ],
+      "critical_checks": [
+        "The time and platform match the station board.",
+        "Phone is visibly set down before the bottle reach."
+      ],
+      "lookdev_priority": "UI and screen-material test still"
+    },
+    {
+      "shot": 8,
+      "start_seconds": 32.083333,
+      "end_seconds": 36.666667,
+      "duration_seconds": 4.583334,
+      "speaker": "Lily",
+      "dialogue": "Oh! I almost forgot my water bottle.",
+      "existing_audio_speech_start": 32.233333,
+      "existing_audio_speech_end": 35.547792,
+      "location": "Home: adjacent kitchen/side counter",
+      "location_role": "present action",
+      "visual": "Lily notices the water bottle on an adjacent counter and turns toward it. The bottle is a normal 22–25 cm object, not a giant prop.",
+      "camera": {
+        "type": "medium three-quarter with bottle in same frame",
+        "lens_mm": 55,
+        "composition": "Lily on one third, bottle on the opposite working side; eye line clearly connects to bottle",
+        "focus": "face and bottle; restrained depth blur"
+      },
+      "actions": [
+        "Short recognition expression on Oh, then a small breath/smile.",
+        "Eyes lead the head turn toward the actual world-space bottle position.",
+        "Her right hand reaches and curls into a tested secure grip by the end of the shot."
+      ],
+      "needed_assets": [
+        "water bottle",
+        "adjacent counter connected to home layout",
+        "hand/bottle grip pose"
+      ],
+      "critical_checks": [
+        "Gaze points toward the bottle.",
+        "No bottle lift occurs before contact.",
+        "Grasp is visible and physically aligned."
+      ],
+      "lookdev_priority": "required reach/grip contact strip"
+    },
+    {
+      "shot": 9,
+      "start_seconds": 36.666667,
+      "end_seconds": 41.25,
+      "duration_seconds": 4.583333,
+      "speaker": "Lily",
+      "dialogue": "I will put it inside my small bag.",
+      "existing_audio_speech_start": 36.816667,
+      "existing_audio_speech_end": 38.762084,
+      "location": "Home: bottle and small bag packing insert",
+      "location_role": "present action",
+      "visual": "Matched close-up of the same hand holding the bottle, moving it over the open bag, lowering it through the rim, and releasing only after it is supported.",
+      "camera": {
+        "type": "three-quarter packing close-up",
+        "lens_mm": 60,
+        "composition": "Hand, bottle, bag opening and final seated state visible together; leave caption room below action",
+        "focus": "hand-to-bottle contact and bag rim throughout"
+      },
+      "actions": [
+        "Maintain the bottle-to-hand relationship from the end of shot 8.",
+        "Lift smoothly, move over the opening without crossing a handle, then lower vertically.",
+        "Release fingers only when the bottle is seated; hand withdraws empty."
+      ],
+      "needed_assets": [
+        "bag with soft rim/interior",
+        "bottle",
+        "constrained/tested hand contact path"
+      ],
+      "critical_checks": [
+        "No floating or sliding bottle.",
+        "No hand through handle or bag wall.",
+        "Bottle ends inside and remains there for all later shots.",
+        "Do not use a portrait cut to hide a known incorrect grasp."
+      ],
+      "lookdev_priority": "required four-frame reach/grip/over-opening/release strip"
+    },
+    {
+      "shot": 10,
+      "start_seconds": 41.25,
+      "end_seconds": 45.833333,
+      "duration_seconds": 4.583333,
+      "speaker": "Lily",
+      "dialogue": "My sister said, please arrive before lunch.",
+      "existing_audio_speech_start": 41.4,
+      "existing_audio_speech_end": 44.085458,
+      "location": "Home: doorway, Anna message and final packing",
+      "location_role": "present action; home preparation finishes",
+      "visual": "A readable message from Anna says Please arrive before lunch. Lily reads it near the home doorway, then packs the phone, closes her small bag and lifts its strap.",
+      "camera": {
+        "type": "phone message insert into doorway medium",
+        "lens_mm": 60,
+        "composition": "Message clear first; then face, bag and door establish readiness",
+        "focus": "message, then Lily and bag"
+      },
+      "actions": [
+        "Lily picks up the phone with the now-free hand and reads Anna's message.",
+        "Phone goes inside the same bag with wallet and bottle.",
+        "Bag closes and Lily takes the strap; final body direction leads toward the door."
+      ],
+      "needed_assets": [
+        "Anna message UI",
+        "home doorway",
+        "closed-bag variation or zipper/strap controls"
+      ],
+      "critical_checks": [
+        "All three needed items are now packed.",
+        "No phone remains on the console in later home views.",
+        "Bag transfers to the chosen carrying hand without a discontinuous reset."
+      ],
+      "lookdev_priority": "doorway medium/contact test"
+    },
+    {
+      "shot": 11,
+      "start_seconds": 45.833333,
+      "end_seconds": 50.416667,
+      "duration_seconds": 4.583334,
+      "speaker": "Lily",
+      "dialogue": "I hope the train will be on time.",
+      "existing_audio_speech_start": 45.983333,
+      "existing_audio_speech_end": 47.781791,
+      "location": "Actual departure station: platform 2",
+      "location_role": "present action after a clear journey/time montage cut",
+      "visual": "Lily stands safely on the platform with the same packed bag. Greenfield 10:30 is visible on the service display; a regional train is arriving slowly or already stopped, with daylight consistent with the home scene.",
+      "camera": {
+        "type": "adult medium-wide platform hero",
+        "lens_mm": 50,
+        "composition": "Lily at left third, recognizable train and platform depth to right; keep behind the platform safety line",
+        "focus": "Lily face with readable train context"
+      },
+      "actions": [
+        "A clean location change implies elapsed travel time, rather than real-time teleportation.",
+        "Lily looks along the track/display with a hopeful, gentle expression.",
+        "Train is fully stopped before boarding begins; if a current clock is included it may read around 10:20, always before 10:30."
+      ],
+      "needed_assets": [
+        "adult Lily with same outfit/bag",
+        "platform 2",
+        "train exterior",
+        "Greenfield departure signage",
+        "safe platform line"
+      ],
+      "critical_checks": [
+        "Lily's adult scale matches train door and platform architecture.",
+        "No bag-content or wardrobe reset.",
+        "No contradictory current time or moving open door."
+      ],
+      "lookdev_priority": "required station/platform hero still"
+    },
+    {
+      "shot": 12,
+      "start_seconds": 50.416667,
+      "end_seconds": 55.0,
+      "duration_seconds": 4.583333,
+      "speaker": "Lily",
+      "dialogue": "All right. I am ready. Let's go!",
+      "existing_audio_speech_start": 50.566667,
+      "existing_audio_speech_end": 54.740792,
+      "location": "Train doorway and vestibule/interior",
+      "location_role": "present action",
+      "visual": "Beside an open stationary train door, Lily smiles, shifts her bag and steps aboard. Finish with her safely inside the vestibule or beside a visible passenger window; seats, floor and doorway make the train interior recognizable.",
+      "camera": {
+        "type": "three-quarter doorway medium, optional short interior reverse",
+        "lens_mm": 55,
+        "composition": "Show weight-bearing foot/step in at least the tested boarding view; final face/bag remain in frame with passenger-train context",
+        "focus": "Lily/door threshold, then face inside"
+      },
+      "actions": [
+        "A small ready nod on All right. I am ready.",
+        "On Let's go, Lily turns and takes a short tested step through the doorway, carrying the same bag.",
+        "End inside the train. Only show departure motion if she is fully aboard and doors are closed; a stationary interior ending is preferable to an unsafe or rushed departure."
+      ],
+      "needed_assets": [
+        "train door, step and vestibule",
+        "passenger window/seat detail",
+        "tested short walk/boarding action",
+        "same bag"
+      ],
+      "critical_checks": [
+        "No foot sliding, hovering or leg through step.",
+        "No train movement while Lily crosses the threshold.",
+        "Final caption and face remain legible; no abrupt freeze on a broken pose."
+      ],
+      "lookdev_priority": "required doorway/interior still and three-frame planted-step test"
+    }
+  ]
+}

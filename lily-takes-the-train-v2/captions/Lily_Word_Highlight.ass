@@ -1,0 +1,132 @@
+[Script Info]
+Title: Lily takes the train — word captions
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Caption,Noto Sans,37,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,0,0,0,1
+Style: Pill,Noto Sans,37,&H001D201E,&H001D201E,&H001D201E,&H001D201E,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:01.86,Pill,,0,0,0,,{\an7\pos(480.00,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 306.00 0 b 313.73 0 320.00 6.27 320.00 14.00 l 320.00 46.00 b 320.00 53.73 313.73 60.00 306.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:00.00,0:00:00.38,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}Good {\c&H00FFFFFF&}morning!
+Dialogue: 1,0:00:00.38,0:00:01.86,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}Good {\c&H002A55F1&}morning!
+Dialogue: 0,0:00:01.86,0:00:04.58,Pill,,0,0,0,,{\an7\pos(357.00,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 552.00 0 b 559.73 0 566.00 6.27 566.00 14.00 l 566.00 46.00 b 566.00 53.73 559.73 60.00 552.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:01.86,0:00:02.59,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}Today, {\c&H00FFFFFF&}I {\c&H00FFFFFF&}am {\c&H00FFFFFF&}taking {\c&H00FFFFFF&}the {\c&H00FFFFFF&}train.
+Dialogue: 1,0:00:02.59,0:00:02.71,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}Today, {\c&H002A55F1&}I {\c&H00FFFFFF&}am {\c&H00FFFFFF&}taking {\c&H00FFFFFF&}the {\c&H00FFFFFF&}train.
+Dialogue: 1,0:00:02.71,0:00:02.83,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}Today, {\c&H00FFFFFF&}I {\c&H002A55F1&}am {\c&H00FFFFFF&}taking {\c&H00FFFFFF&}the {\c&H00FFFFFF&}train.
+Dialogue: 1,0:00:02.83,0:00:03.24,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}Today, {\c&H00FFFFFF&}I {\c&H00FFFFFF&}am {\c&H002A55F1&}taking {\c&H00FFFFFF&}the {\c&H00FFFFFF&}train.
+Dialogue: 1,0:00:03.24,0:00:03.36,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}Today, {\c&H00FFFFFF&}I {\c&H00FFFFFF&}am {\c&H00FFFFFF&}taking {\c&H002A55F1&}the {\c&H00FFFFFF&}train.
+Dialogue: 1,0:00:03.36,0:00:04.58,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}Today, {\c&H00FFFFFF&}I {\c&H00FFFFFF&}am {\c&H00FFFFFF&}taking {\c&H00FFFFFF&}the {\c&H002A55F1&}train.
+Dialogue: 0,0:00:04.58,0:00:05.66,Pill,,0,0,0,,{\an7\pos(451.00,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 364.00 0 b 371.73 0 378.00 6.27 378.00 14.00 l 378.00 46.00 b 378.00 53.73 371.73 60.00 364.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:04.58,0:00:04.90,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}I {\c&H00FFFFFF&}am {\c&H00FFFFFF&}going {\c&H00FFFFFF&}to {\c&H00FFFFFF&}visit
+Dialogue: 1,0:00:04.90,0:00:05.02,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}I {\c&H002A55F1&}am {\c&H00FFFFFF&}going {\c&H00FFFFFF&}to {\c&H00FFFFFF&}visit
+Dialogue: 1,0:00:05.02,0:00:05.24,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}I {\c&H00FFFFFF&}am {\c&H002A55F1&}going {\c&H00FFFFFF&}to {\c&H00FFFFFF&}visit
+Dialogue: 1,0:00:05.24,0:00:05.36,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}I {\c&H00FFFFFF&}am {\c&H00FFFFFF&}going {\c&H002A55F1&}to {\c&H00FFFFFF&}visit
+Dialogue: 1,0:00:05.36,0:00:05.66,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}I {\c&H00FFFFFF&}am {\c&H00FFFFFF&}going {\c&H00FFFFFF&}to {\c&H002A55F1&}visit
+Dialogue: 0,0:00:05.66,0:00:09.17,Pill,,0,0,0,,{\an7\pos(471.00,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 324.00 0 b 331.73 0 338.00 6.27 338.00 14.00 l 338.00 46.00 b 338.00 53.73 331.73 60.00 324.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:05.66,0:00:05.81,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}my {\c&H00FFFFFF&}sister, {\c&H00FFFFFF&}Anna.
+Dialogue: 1,0:00:05.81,0:00:06.54,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}my {\c&H002A55F1&}sister, {\c&H00FFFFFF&}Anna.
+Dialogue: 1,0:00:06.54,0:00:09.17,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}my {\c&H00FFFFFF&}sister, {\c&H002A55F1&}Anna.
+Dialogue: 0,0:00:09.17,0:00:10.37,Pill,,0,0,0,,{\an7\pos(447.00,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 372.00 0 b 379.73 0 386.00 6.27 386.00 14.00 l 386.00 46.00 b 386.00 53.73 379.73 60.00 372.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:09.17,0:00:09.55,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}She {\c&H00FFFFFF&}lives {\c&H00FFFFFF&}in {\c&H00FFFFFF&}a {\c&H00FFFFFF&}town
+Dialogue: 1,0:00:09.55,0:00:09.80,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}She {\c&H002A55F1&}lives {\c&H00FFFFFF&}in {\c&H00FFFFFF&}a {\c&H00FFFFFF&}town
+Dialogue: 1,0:00:09.80,0:00:09.90,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}She {\c&H00FFFFFF&}lives {\c&H002A55F1&}in {\c&H00FFFFFF&}a {\c&H00FFFFFF&}town
+Dialogue: 1,0:00:09.90,0:00:09.98,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}She {\c&H00FFFFFF&}lives {\c&H00FFFFFF&}in {\c&H002A55F1&}a {\c&H00FFFFFF&}town
+Dialogue: 1,0:00:09.98,0:00:10.37,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}She {\c&H00FFFFFF&}lives {\c&H00FFFFFF&}in {\c&H00FFFFFF&}a {\c&H002A55F1&}town
+Dialogue: 0,0:00:10.37,0:00:13.75,Pill,,0,0,0,,{\an7\pos(456.50,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 353.00 0 b 360.73 0 367.00 6.27 367.00 14.00 l 367.00 46.00 b 367.00 53.73 360.73 60.00 353.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:10.37,0:00:10.63,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}called {\c&H00FFFFFF&}Greenfield.
+Dialogue: 1,0:00:10.63,0:00:13.75,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}called {\c&H002A55F1&}Greenfield.
+Dialogue: 0,0:00:13.75,0:00:14.92,Pill,,0,0,0,,{\an7\pos(452.50,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 361.00 0 b 368.73 0 375.00 6.27 375.00 14.00 l 375.00 46.00 b 375.00 53.73 368.73 60.00 361.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:13.75,0:00:14.10,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}My {\c&H00FFFFFF&}train {\c&H00FFFFFF&}leaves {\c&H00FFFFFF&}at
+Dialogue: 1,0:00:14.10,0:00:14.50,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}My {\c&H002A55F1&}train {\c&H00FFFFFF&}leaves {\c&H00FFFFFF&}at
+Dialogue: 1,0:00:14.50,0:00:14.78,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}My {\c&H00FFFFFF&}train {\c&H002A55F1&}leaves {\c&H00FFFFFF&}at
+Dialogue: 1,0:00:14.78,0:00:14.92,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}My {\c&H00FFFFFF&}train {\c&H00FFFFFF&}leaves {\c&H002A55F1&}at
+Dialogue: 0,0:00:14.92,0:00:18.33,Pill,,0,0,0,,{\an7\pos(399.50,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 467.00 0 b 474.73 0 481.00 6.27 481.00 14.00 l 481.00 46.00 b 481.00 53.73 474.73 60.00 467.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:14.92,0:00:15.19,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}ten {\c&H00FFFFFF&}thirty {\c&H00FFFFFF&}this {\c&H00FFFFFF&}morning.
+Dialogue: 1,0:00:15.19,0:00:15.50,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}ten {\c&H002A55F1&}thirty {\c&H00FFFFFF&}this {\c&H00FFFFFF&}morning.
+Dialogue: 1,0:00:15.50,0:00:15.74,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}ten {\c&H00FFFFFF&}thirty {\c&H002A55F1&}this {\c&H00FFFFFF&}morning.
+Dialogue: 1,0:00:15.74,0:00:18.33,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}ten {\c&H00FFFFFF&}thirty {\c&H00FFFFFF&}this {\c&H002A55F1&}morning.
+Dialogue: 0,0:00:18.33,0:00:20.87,Pill,,0,0,0,,{\an7\pos(421.50,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 423.00 0 b 430.73 0 437.00 6.27 437.00 14.00 l 437.00 46.00 b 437.00 53.73 430.73 60.00 423.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:18.33,0:00:18.66,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}It {\c&H00FFFFFF&}is {\c&H00FFFFFF&}nine {\c&H00FFFFFF&}o'clock {\c&H00FFFFFF&}now.
+Dialogue: 1,0:00:18.66,0:00:18.80,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}It {\c&H002A55F1&}is {\c&H00FFFFFF&}nine {\c&H00FFFFFF&}o'clock {\c&H00FFFFFF&}now.
+Dialogue: 1,0:00:18.80,0:00:19.07,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}It {\c&H00FFFFFF&}is {\c&H002A55F1&}nine {\c&H00FFFFFF&}o'clock {\c&H00FFFFFF&}now.
+Dialogue: 1,0:00:19.07,0:00:19.54,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}It {\c&H00FFFFFF&}is {\c&H00FFFFFF&}nine {\c&H002A55F1&}o'clock {\c&H00FFFFFF&}now.
+Dialogue: 1,0:00:19.54,0:00:20.87,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}It {\c&H00FFFFFF&}is {\c&H00FFFFFF&}nine {\c&H00FFFFFF&}o'clock {\c&H002A55F1&}now.
+Dialogue: 0,0:00:20.87,0:00:22.92,Pill,,0,0,0,,{\an7\pos(508.00,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 250.00 0 b 257.73 0 264.00 6.27 264.00 14.00 l 264.00 46.00 b 264.00 53.73 257.73 60.00 250.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:20.87,0:00:21.04,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}I {\c&H00FFFFFF&}have {\c&H00FFFFFF&}time.
+Dialogue: 1,0:00:21.04,0:00:21.27,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}I {\c&H002A55F1&}have {\c&H00FFFFFF&}time.
+Dialogue: 1,0:00:21.27,0:00:22.92,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}I {\c&H00FFFFFF&}have {\c&H002A55F1&}time.
+Dialogue: 0,0:00:22.92,0:00:24.54,Pill,,0,0,0,,{\an7\pos(412.00,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 442.00 0 b 449.73 0 456.00 6.27 456.00 14.00 l 456.00 46.00 b 456.00 53.73 449.73 60.00 442.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:22.92,0:00:23.74,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}First, {\c&H00FFFFFF&}I {\c&H00FFFFFF&}need {\c&H00FFFFFF&}my {\c&H00FFFFFF&}phone
+Dialogue: 1,0:00:23.74,0:00:23.79,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}First, {\c&H002A55F1&}I {\c&H00FFFFFF&}need {\c&H00FFFFFF&}my {\c&H00FFFFFF&}phone
+Dialogue: 1,0:00:23.79,0:00:24.01,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}First, {\c&H00FFFFFF&}I {\c&H002A55F1&}need {\c&H00FFFFFF&}my {\c&H00FFFFFF&}phone
+Dialogue: 1,0:00:24.01,0:00:24.17,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}First, {\c&H00FFFFFF&}I {\c&H00FFFFFF&}need {\c&H002A55F1&}my {\c&H00FFFFFF&}phone
+Dialogue: 1,0:00:24.17,0:00:24.54,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}First, {\c&H00FFFFFF&}I {\c&H00FFFFFF&}need {\c&H00FFFFFF&}my {\c&H002A55F1&}phone
+Dialogue: 0,0:00:24.54,0:00:27.50,Pill,,0,0,0,,{\an7\pos(482.00,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 302.00 0 b 309.73 0 316.00 6.27 316.00 14.00 l 316.00 46.00 b 316.00 53.73 309.73 60.00 302.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:24.54,0:00:24.65,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}and {\c&H00FFFFFF&}my {\c&H00FFFFFF&}wallet.
+Dialogue: 1,0:00:24.65,0:00:24.80,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}and {\c&H002A55F1&}my {\c&H00FFFFFF&}wallet.
+Dialogue: 1,0:00:24.80,0:00:27.50,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}and {\c&H00FFFFFF&}my {\c&H002A55F1&}wallet.
+Dialogue: 0,0:00:27.50,0:00:28.78,Pill,,0,0,0,,{\an7\pos(396.00,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 474.00 0 b 481.73 0 488.00 6.27 488.00 14.00 l 488.00 46.00 b 488.00 53.73 481.73 60.00 474.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:27.50,0:00:27.90,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}Here {\c&H00FFFFFF&}are {\c&H00FFFFFF&}the {\c&H00FFFFFF&}train {\c&H00FFFFFF&}times
+Dialogue: 1,0:00:27.90,0:00:28.00,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}Here {\c&H002A55F1&}are {\c&H00FFFFFF&}the {\c&H00FFFFFF&}train {\c&H00FFFFFF&}times
+Dialogue: 1,0:00:28.00,0:00:28.11,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}Here {\c&H00FFFFFF&}are {\c&H002A55F1&}the {\c&H00FFFFFF&}train {\c&H00FFFFFF&}times
+Dialogue: 1,0:00:28.11,0:00:28.44,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}Here {\c&H00FFFFFF&}are {\c&H00FFFFFF&}the {\c&H002A55F1&}train {\c&H00FFFFFF&}times
+Dialogue: 1,0:00:28.44,0:00:28.78,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}Here {\c&H00FFFFFF&}are {\c&H00FFFFFF&}the {\c&H00FFFFFF&}train {\c&H002A55F1&}times
+Dialogue: 0,0:00:28.78,0:00:32.08,Pill,,0,0,0,,{\an7\pos(492.00,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 282.00 0 b 289.73 0 296.00 6.27 296.00 14.00 l 296.00 46.00 b 296.00 53.73 289.73 60.00 282.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:28.78,0:00:28.91,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}on {\c&H00FFFFFF&}my {\c&H00FFFFFF&}phone.
+Dialogue: 1,0:00:28.91,0:00:29.05,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}on {\c&H002A55F1&}my {\c&H00FFFFFF&}phone.
+Dialogue: 1,0:00:29.05,0:00:32.08,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}on {\c&H00FFFFFF&}my {\c&H002A55F1&}phone.
+Dialogue: 0,0:00:32.08,0:00:34.56,Pill,,0,0,0,,{\an7\pos(442.50,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 381.00 0 b 388.73 0 395.00 6.27 395.00 14.00 l 395.00 46.00 b 395.00 53.73 388.73 60.00 381.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:32.08,0:00:33.63,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}Oh! {\c&H00FFFFFF&}I {\c&H00FFFFFF&}almost {\c&H00FFFFFF&}forgot
+Dialogue: 1,0:00:33.63,0:00:33.82,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}Oh! {\c&H002A55F1&}I {\c&H00FFFFFF&}almost {\c&H00FFFFFF&}forgot
+Dialogue: 1,0:00:33.82,0:00:34.18,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}Oh! {\c&H00FFFFFF&}I {\c&H002A55F1&}almost {\c&H00FFFFFF&}forgot
+Dialogue: 1,0:00:34.18,0:00:34.56,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}Oh! {\c&H00FFFFFF&}I {\c&H00FFFFFF&}almost {\c&H002A55F1&}forgot
+Dialogue: 0,0:00:34.56,0:00:36.67,Pill,,0,0,0,,{\an7\pos(464.00,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 338.00 0 b 345.73 0 352.00 6.27 352.00 14.00 l 352.00 46.00 b 352.00 53.73 345.73 60.00 338.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:34.56,0:00:34.71,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}my {\c&H00FFFFFF&}water {\c&H00FFFFFF&}bottle.
+Dialogue: 1,0:00:34.71,0:00:35.06,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}my {\c&H002A55F1&}water {\c&H00FFFFFF&}bottle.
+Dialogue: 1,0:00:35.06,0:00:36.67,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}my {\c&H00FFFFFF&}water {\c&H002A55F1&}bottle.
+Dialogue: 0,0:00:36.67,0:00:37.84,Pill,,0,0,0,,{\an7\pos(457.50,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 351.00 0 b 358.73 0 365.00 6.27 365.00 14.00 l 365.00 46.00 b 365.00 53.73 358.73 60.00 351.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:36.67,0:00:36.96,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}I {\c&H00FFFFFF&}will {\c&H00FFFFFF&}put {\c&H00FFFFFF&}it {\c&H00FFFFFF&}inside
+Dialogue: 1,0:00:36.96,0:00:37.11,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}I {\c&H002A55F1&}will {\c&H00FFFFFF&}put {\c&H00FFFFFF&}it {\c&H00FFFFFF&}inside
+Dialogue: 1,0:00:37.11,0:00:37.30,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}I {\c&H00FFFFFF&}will {\c&H002A55F1&}put {\c&H00FFFFFF&}it {\c&H00FFFFFF&}inside
+Dialogue: 1,0:00:37.30,0:00:37.41,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}I {\c&H00FFFFFF&}will {\c&H00FFFFFF&}put {\c&H002A55F1&}it {\c&H00FFFFFF&}inside
+Dialogue: 1,0:00:37.41,0:00:37.84,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}I {\c&H00FFFFFF&}will {\c&H00FFFFFF&}put {\c&H00FFFFFF&}it {\c&H002A55F1&}inside
+Dialogue: 0,0:00:37.84,0:00:41.25,Pill,,0,0,0,,{\an7\pos(490.00,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 286.00 0 b 293.73 0 300.00 6.27 300.00 14.00 l 300.00 46.00 b 300.00 53.73 293.73 60.00 286.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:37.84,0:00:37.99,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}my {\c&H00FFFFFF&}small {\c&H00FFFFFF&}bag.
+Dialogue: 1,0:00:37.99,0:00:38.32,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}my {\c&H002A55F1&}small {\c&H00FFFFFF&}bag.
+Dialogue: 1,0:00:38.32,0:00:41.25,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}my {\c&H00FFFFFF&}small {\c&H002A55F1&}bag.
+Dialogue: 0,0:00:41.25,0:00:42.58,Pill,,0,0,0,,{\an7\pos(486.00,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 294.00 0 b 301.73 0 308.00 6.27 308.00 14.00 l 308.00 46.00 b 308.00 53.73 301.73 60.00 294.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:41.25,0:00:41.61,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}My {\c&H00FFFFFF&}sister {\c&H00FFFFFF&}said,
+Dialogue: 1,0:00:41.61,0:00:42.01,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}My {\c&H002A55F1&}sister {\c&H00FFFFFF&}said,
+Dialogue: 1,0:00:42.01,0:00:42.58,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}My {\c&H00FFFFFF&}sister {\c&H002A55F1&}said,
+Dialogue: 0,0:00:42.58,0:00:45.83,Pill,,0,0,0,,{\an7\pos(371.50,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 523.00 0 b 530.73 0 537.00 6.27 537.00 14.00 l 537.00 46.00 b 537.00 53.73 530.73 60.00 523.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:42.58,0:00:42.86,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}please {\c&H00FFFFFF&}arrive {\c&H00FFFFFF&}before {\c&H00FFFFFF&}lunch.
+Dialogue: 1,0:00:42.86,0:00:43.18,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}please {\c&H002A55F1&}arrive {\c&H00FFFFFF&}before {\c&H00FFFFFF&}lunch.
+Dialogue: 1,0:00:43.18,0:00:43.54,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}please {\c&H00FFFFFF&}arrive {\c&H002A55F1&}before {\c&H00FFFFFF&}lunch.
+Dialogue: 1,0:00:43.54,0:00:45.83,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}please {\c&H00FFFFFF&}arrive {\c&H00FFFFFF&}before {\c&H002A55F1&}lunch.
+Dialogue: 0,0:00:45.83,0:00:46.80,Pill,,0,0,0,,{\an7\pos(473.50,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 319.00 0 b 326.73 0 333.00 6.27 333.00 14.00 l 333.00 46.00 b 333.00 53.73 326.73 60.00 319.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:45.83,0:00:46.13,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}I {\c&H00FFFFFF&}hope {\c&H00FFFFFF&}the {\c&H00FFFFFF&}train
+Dialogue: 1,0:00:46.13,0:00:46.37,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}I {\c&H002A55F1&}hope {\c&H00FFFFFF&}the {\c&H00FFFFFF&}train
+Dialogue: 1,0:00:46.37,0:00:46.49,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}I {\c&H00FFFFFF&}hope {\c&H002A55F1&}the {\c&H00FFFFFF&}train
+Dialogue: 1,0:00:46.49,0:00:46.80,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}I {\c&H00FFFFFF&}hope {\c&H00FFFFFF&}the {\c&H002A55F1&}train
+Dialogue: 0,0:00:46.80,0:00:50.42,Pill,,0,0,0,,{\an7\pos(476.50,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 313.00 0 b 320.73 0 327.00 6.27 327.00 14.00 l 327.00 46.00 b 327.00 53.73 320.73 60.00 313.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:46.80,0:00:46.93,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}will {\c&H00FFFFFF&}be {\c&H00FFFFFF&}on {\c&H00FFFFFF&}time.
+Dialogue: 1,0:00:46.93,0:00:47.10,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}will {\c&H002A55F1&}be {\c&H00FFFFFF&}on {\c&H00FFFFFF&}time.
+Dialogue: 1,0:00:47.10,0:00:47.26,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}will {\c&H00FFFFFF&}be {\c&H002A55F1&}on {\c&H00FFFFFF&}time.
+Dialogue: 1,0:00:47.26,0:00:50.42,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}will {\c&H00FFFFFF&}be {\c&H00FFFFFF&}on {\c&H002A55F1&}time.
+Dialogue: 0,0:00:50.42,0:00:52.21,Pill,,0,0,0,,{\an7\pos(537.50,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 191.00 0 b 198.73 0 205.00 6.27 205.00 14.00 l 205.00 46.00 b 205.00 53.73 198.73 60.00 191.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:50.42,0:00:50.80,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}All {\c&H00FFFFFF&}right.
+Dialogue: 1,0:00:50.80,0:00:52.21,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}All {\c&H002A55F1&}right.
+Dialogue: 0,0:00:52.21,0:00:53.96,Pill,,0,0,0,,{\an7\pos(514.50,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 237.00 0 b 244.73 0 251.00 6.27 251.00 14.00 l 251.00 46.00 b 251.00 53.73 244.73 60.00 237.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:52.21,0:00:52.40,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}I {\c&H00FFFFFF&}am {\c&H00FFFFFF&}ready.
+Dialogue: 1,0:00:52.40,0:00:52.56,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}I {\c&H002A55F1&}am {\c&H00FFFFFF&}ready.
+Dialogue: 1,0:00:52.56,0:00:53.96,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}I {\c&H00FFFFFF&}am {\c&H002A55F1&}ready.
+Dialogue: 0,0:00:53.96,0:00:55.00,Pill,,0,0,0,,{\an7\pos(541.00,571.00)\p1\bord0\shad0\alpha&H35&}m 14.00 0 l 184.00 0 b 191.73 0 198.00 6.27 198.00 14.00 l 198.00 46.00 b 198.00 53.73 191.73 60.00 184.00 60.00 l 14.00 60.00 b 6.27 60.00 0 53.73 0 46.00 l 0 14.00 b 0 6.27 6.27 0 14.00 0{\p0}
+Dialogue: 1,0:00:53.96,0:00:54.31,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H002A55F1&}Let's {\c&H00FFFFFF&}go!
+Dialogue: 1,0:00:54.31,0:00:55.00,Caption,,0,0,0,,{\an5\pos(640,599)\bord0\shad0}{\c&H00FFFFFF&}Let's {\c&H002A55F1&}go!
