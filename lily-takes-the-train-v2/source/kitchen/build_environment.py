@@ -300,7 +300,7 @@ def preview():
     camd=bpy.data.cameras.new('Env_PreviewCamera');cam=bpy.data.objects.new('Env_PreviewCamera',camd);COL.objects.link(cam)
     cam.location=(.25,-5.4,1.8);target=Vector((0,1.1,1.40));cam.rotation_euler=(target-cam.location).to_track_quat('-Z','Y').to_euler()
     camd.lens=29;sc.camera=cam
-    sc.render.engine='BLENDER_EEVEE_NEXT';sc.render.resolution_x=960;sc.render.resolution_y=540;sc.render.resolution_percentage=100
+    sc.render.engine='CYCLES';sc.cycles.device='CPU';sc.cycles.samples=16;sc.cycles.use_denoising=False;sc.render.resolution_x=960;sc.render.resolution_y=540;sc.render.resolution_percentage=100
     sc.render.image_settings.file_format='PNG';sc.render.filepath=str(Path(__file__).with_name('preview.png'))
     sc.render.film_transparent=False;sc.view_settings.view_transform='AgX'
     sc.view_settings.look='AgX - Medium High Contrast';sc.view_settings.exposure=.5

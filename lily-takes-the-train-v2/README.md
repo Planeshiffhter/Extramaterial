@@ -6,7 +6,9 @@ an adult character, a new sage sweater/jeans outfit, custom facial controls,
 and a station/train environment. Development and preview rendering used the
 CPU; a GPU has not been connected or used for this prototype.
 
-![Adult Lily at home](previews/home_hero.png)
+![Silent speaking-loop preview](previews/Lily_V2_CPU_First_Line_Loop.gif)
+
+Silent preview above. [Play/download the MP4 with narration](previews/Lily_V2_CPU_First_Line_Test.mp4).
 
 ![Station and train](previews/station_wide.png)
 
@@ -28,7 +30,7 @@ and surface detail do not exactly reproduce the reference video.
 
 The motion test maps Rhubarb speech mouth cues to custom jaw/round controls,
 adds a blink and a small head movement, and uses native animation frames rather
-than optical-flow frame interpolation. The 4.5-second first-line MP4 is rendering on the CPU. It will be added here after the rendered motion is checked. The packed motion file contains the native animation keys. This is not a 55-second animation.
+than optical-flow frame interpolation. The playable [first-line test](previews/Lily_V2_CPU_First_Line_Test.mp4) is 4.5 seconds, with the complete first sentence and highlighted captions. It is not a 55-second animation.
 
 ## Open the packed projects
 
@@ -133,3 +135,5 @@ the V2 preview renders or a redistributed source-character rig.
 ## Included production media
 
 The `audio/` folder contains the complete 55-second narration. `captions/` contains the timed highlighted ASS captions and its licensed Noto font. These reusable media do not imply that the revised full-length film has been rendered.
+
+[Download the complete CPU preview/source ZIP](Lily_V2_CPU_Preview_Pack.zip), unzip it, and open **Gallery.html** for the video and scene previews. The website source is also uploaded; [GitHub Pages activation](WEBSITE_SETUP.md) requires the repository owner because the connected app received HTTP403 for the Pages API.

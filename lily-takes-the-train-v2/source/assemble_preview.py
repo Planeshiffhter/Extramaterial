@@ -4,7 +4,7 @@ import subprocess
 root=Path(__file__).resolve().parent.parent
 out=root/'previews/Lily_V2_CPU_First_Line_Test.mp4'
 out.parent.mkdir(exist_ok=True)
-assert (root/'source/motion/frame_0108.png').is_file(), 'Denoise/export all108 PNGs into source/motion first.'
+assert all((root/'source/motion'/f'frame_{i:04d}.png').is_file() for i in range(1,109)), 'Denoise/export all 108 PNGs into source/motion first.'
 subprocess.run([
     'ffmpeg','-v','error','-y','-framerate','24','-i','source/motion/frame_%04d.png',
     '-i','audio/Lily_Narration_55s.wav','-t','4.5',
@@ -13,3 +13,4 @@ subprocess.run([
     '-c:a','aac','-movflags','+faststart',str(out)
 ],check=True,cwd=root)
 print(out)
+subprocess.run(['ffmpeg','-v','error','-y','-i',str(out),'-vf','fps=12,scale=640:-1:flags=lanczos,split[s0][s1];[s0]palettegen=max_colors=128[p];[s1][p]paletteuse=dither=bayer:bayer_scale=3','-loop','0',str(root/'previews/Lily_V2_CPU_First_Line_Loop.gif')],check=True)

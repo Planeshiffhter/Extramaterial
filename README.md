@@ -8,6 +8,8 @@ Adult character redesign, home/station/train previews, editable Blender files an
 - [Home character preview](lily-takes-the-train-v2/previews/home_hero.png)
 - [Station/train preview](lily-takes-the-train-v2/previews/station_wide.png)
 - [Train interior preview](lily-takes-the-train-v2/previews/train_interior.png)
+- [4.5-second native-frame speaking test](lily-takes-the-train-v2/previews/Lily_V2_CPU_First_Line_Test.mp4)
+- [Download V2 CPU preview/source ZIP](lily-takes-the-train-v2/Lily_V2_CPU_Preview_Pack.zip)
 - [Activate the prepared gallery website](lily-takes-the-train-v2/WEBSITE_SETUP.md)
 
 ## Archived V1

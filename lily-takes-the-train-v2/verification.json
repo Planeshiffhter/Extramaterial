@@ -81,5 +81,84 @@
       "root_blink": 0.0
     }
   ],
-  "motion_narration_packed": true
+  "motion_narration_packed": true,
+  "motion_test": {
+    "project": "Lily_V2_CPU_Motion_Test.blend",
+    "frames": 108,
+    "fps": 24,
+    "duration_seconds": 4.5,
+    "native_frame_resolution": [
+      640,
+      360
+    ],
+    "presentation_resolution": [
+      1280,
+      720
+    ],
+    "device": "CPU",
+    "jaw_driver_evaluates": true,
+    "blink_key_verified": true,
+    "narration_packed": true,
+    "camera_render_uses_audio_sequencer": false,
+    "rendered_frames_present": 108,
+    "rendered_with_interpolation": false,
+    "video_probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "index": 0,
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "avg_frame_rate": "24/1",
+          "duration": "4.500000",
+          "nb_frames": "108"
+        },
+        {
+          "index": 1,
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "avg_frame_rate": "0/0",
+          "duration": "4.500000",
+          "nb_frames": "212"
+        }
+      ],
+      "format": {
+        "duration": "4.500000"
+      }
+    },
+    "full_revised_55_second_movie_finished": false
+  },
+  "gallery_checks": [
+    {
+      "layout": "desktop",
+      "viewport": 1440,
+      "width": 1440,
+      "images": 4,
+      "media": {
+        "duration": 4.5,
+        "width": 1280,
+        "height": 720,
+        "loop": true
+      },
+      "video_playback_verified": true,
+      "horizontal_overflow": false
+    },
+    {
+      "layout": "mobile",
+      "viewport": 390,
+      "width": 390,
+      "images": 4,
+      "media": {
+        "duration": 4.5,
+        "width": 1280,
+        "height": 720,
+        "loop": true
+      },
+      "video_playback_verified": true,
+      "horizontal_overflow": false
+    }
+  ]
 }

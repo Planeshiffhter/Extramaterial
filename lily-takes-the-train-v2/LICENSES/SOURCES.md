@@ -2,6 +2,7 @@
 
 - Adult base character: https://grab3d.com/models/characters/woman/ — CC0-1.0; supplied original notice in Grab3D_CC0.txt. The publisher discloses AI-assisted Meshy mesh/textures, cleaned and checked in Blender.
 - New clothing, mouth/eyelid geometry, home/travel props and railway environment: project-authored Blender work.
+- Narration: user-supplied Lily script synthesized with edge-tts, voice en-US-JennyNeural, rate -10%.
 - Rhubarb Lip Sync 1.14.0: https://github.com/DanielSWolf/rhubarb-lip-sync — MIT, supplied license. Analysis output is included; executable is not.
 - DejaVu Sans: Bitstream Vera/DejaVu notices in DejaVu.txt; included for station signage.
 - Noto Sans Bold: SIL OFL1.1, Noto_OFL.txt; included for captions.

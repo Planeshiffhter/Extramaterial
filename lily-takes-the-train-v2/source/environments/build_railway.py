@@ -532,7 +532,7 @@ def preview():
     world=bpy.data.worlds.new('Rail_LookdevWorld');world.use_nodes=True
     world.node_tree.nodes['Background'].inputs[0].default_value=(.50,.65,.81,1);world.node_tree.nodes['Background'].inputs[1].default_value=.42;sc.world=world
     sc.camera=bpy.data.objects['Rail_Camera_platform_wide']
-    sc.render.engine='BLENDER_EEVEE_NEXT';sc.eevee.taa_render_samples=16
+    sc.render.engine='CYCLES';sc.cycles.device='CPU';sc.cycles.samples=16;sc.cycles.use_denoising=False
     sc.render.resolution_x=640;sc.render.resolution_y=360;sc.render.resolution_percentage=100
     sc.view_settings.view_transform='AgX';sc.view_settings.look='AgX - Medium High Contrast';sc.view_settings.exposure=0
     sc.render.image_settings.file_format='PNG';sc.render.filepath=str(Path(__file__).with_name('station_lookdev.png'))
