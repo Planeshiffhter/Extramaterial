@@ -23,7 +23,7 @@ def drive(key,root,prop):
 def face_controls(actor):
     root=actor['root'];f=actor['facial']
     for name,val in [('jaw_open',0),('mouth_round',0),('smile',.10),('blink',0)]:
-        root[name]=val;root.id_properties_ui(name).update(min=0,max=1,soft_min=0,soft_max=1)
+        root[name]=float(val);root.id_properties_ui(name).update(min=0.0,max=1.0,soft_min=0.0,soft_max=1.0)
     for key,prop in [('jaw','jaw_open'),('round','mouth_round'),('smile','smile'),('blink_L','blink'),('blink_R','blink'),('blink_lower_L','blink'),('blink_lower_R','blink')]:
         if key in f:drive(f[key],root,prop)
     for key in f.get('lower_oral',[]):drive(key,root,'jaw_open')

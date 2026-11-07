@@ -23,6 +23,7 @@ and surface detail do not exactly reproduce the reference video.
 | [previews/home_hero.png](previews/home_hero.png) | CPU-rendered, CPU-denoised home character/material/camera study |
 | [previews/station_wide.png](previews/station_wide.png) | CPU-rendered station/platform composition showing Lily and a regional train |
 | [previews/train_interior.png](previews/train_interior.png) | Environment study of passenger seats, windows, tables and interior details; Lily is not staged in this interior preview |
+| [previews/station_exterior.png](previews/station_exterior.png) | CPU station facade and approach environment study |
 | [Lily_V2_CPU_Motion_Test.blend](Lily_V2_CPU_Motion_Test.blend) | Home scene only, with a 108-frame/4.5-second native-24-fps facial/head-motion test |
 
 The motion test maps Rhubarb speech mouth cues to custom jaw/round controls,
@@ -47,8 +48,7 @@ Press **Numpad 0** for the active camera view. The station scene also has a
 `Station narrative wide` camera. To use it, select that camera and choose
 **View > Cameras > Set Active Object as Camera**. The supplied wide PNG was
 rendered with Lily turned approximately 39 degrees around her root Z axis.
-The exterior scene exists in the project; a finished exterior preview is not
-included in the three review images above.
+The exterior scene is also shown in [the station exterior study](previews/station_exterior.png).
 
 The character collection is shared between the home and station scenes.
 Changing Lily's root pose, rotation or facial controls affects both scenes.
@@ -73,8 +73,7 @@ and eyelids follow the head through native armature modifiers.
 
 Use the static look-development file to try facial values. The motion-test
 file has keyed controls, so changing the timeline can overwrite a manual
-value. Its playback range is frames **1–108 at 24 fps**. The `.blend` is a visual
-motion study; no complete 55-second audio/story edit has been assembled in it.
+value. Its playback range is frames **1–108 at 24 fps**, with narration packed and the audio strip trimmed to the first sentence. The complete revised 55-second story edit is unfinished.
 
 ## Rendering a new CPU still
 

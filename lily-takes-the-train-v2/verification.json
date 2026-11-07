@@ -42,5 +42,44 @@
     "blink": 0
   },
   "missing_external_images": [],
-  "missing_external_fonts": []
+  "missing_external_fonts": [],
+  "fractional_controls_verified_in_blender": [
+    {
+      "frame": 1,
+      "root_jaw": 0.0,
+      "shape_jaw": 0.0,
+      "root_blink": 0.0
+    },
+    {
+      "frame": 13,
+      "root_jaw": 0.14000000059604645,
+      "shape_jaw": 0.14000000059604645,
+      "root_blink": 0.0
+    },
+    {
+      "frame": 29,
+      "root_jaw": 0.0,
+      "shape_jaw": 0.0,
+      "root_blink": 1.0
+    },
+    {
+      "frame": 53,
+      "root_jaw": 0.2800000011920929,
+      "shape_jaw": 0.2800000011920929,
+      "root_blink": 0.0
+    },
+    {
+      "frame": 82,
+      "root_jaw": 0.14000000059604645,
+      "shape_jaw": 0.14000000059604645,
+      "root_blink": 1.0
+    },
+    {
+      "frame": 108,
+      "root_jaw": 0.0,
+      "shape_jaw": 0.0,
+      "root_blink": 0.0
+    }
+  ],
+  "motion_narration_packed": true
 }

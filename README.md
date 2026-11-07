@@ -8,6 +8,7 @@ Adult character redesign, home/station/train previews, editable Blender files an
 - [Home character preview](lily-takes-the-train-v2/previews/home_hero.png)
 - [Station/train preview](lily-takes-the-train-v2/previews/station_wide.png)
 - [Train interior preview](lily-takes-the-train-v2/previews/train_interior.png)
+- [Activate the prepared gallery website](lily-takes-the-train-v2/WEBSITE_SETUP.md)
 
 ## Archived V1
 

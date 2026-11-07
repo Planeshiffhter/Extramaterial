@@ -301,10 +301,10 @@ def preview():
     cam.location=(.25,-5.4,1.8);target=Vector((0,1.1,1.40));cam.rotation_euler=(target-cam.location).to_track_quat('-Z','Y').to_euler()
     camd.lens=29;sc.camera=cam
     sc.render.engine='BLENDER_EEVEE_NEXT';sc.render.resolution_x=960;sc.render.resolution_y=540;sc.render.resolution_percentage=100
-    sc.render.image_settings.file_format='PNG';sc.render.filepath='/workspace/work/kitchen/preview.png'
+    sc.render.image_settings.file_format='PNG';sc.render.filepath=str(Path(__file__).with_name('preview.png'))
     sc.render.film_transparent=False;sc.view_settings.view_transform='AgX'
     sc.view_settings.look='AgX - Medium High Contrast';sc.view_settings.exposure=.5
-    bpy.ops.wm.save_as_mainfile(filepath='/workspace/work/kitchen/environment.blend')
+    bpy.ops.wm.save_as_mainfile(filepath=str(Path(__file__).with_name('environment.blend')))
     bpy.ops.render.render(write_still=True)
 
 if __name__=='__main__':preview()

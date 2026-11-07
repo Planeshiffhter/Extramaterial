@@ -535,8 +535,8 @@ def preview():
     sc.render.engine='BLENDER_EEVEE_NEXT';sc.eevee.taa_render_samples=16
     sc.render.resolution_x=640;sc.render.resolution_y=360;sc.render.resolution_percentage=100
     sc.view_settings.view_transform='AgX';sc.view_settings.look='AgX - Medium High Contrast';sc.view_settings.exposure=0
-    sc.render.image_settings.file_format='PNG';sc.render.filepath='/workspace/work/v2/environments/station_lookdev.png'
-    bpy.ops.wm.save_as_mainfile(filepath='/workspace/work/v2/environments/station.blend')
+    sc.render.image_settings.file_format='PNG';sc.render.filepath=str(Path(__file__).with_name('station_lookdev.png'))
+    bpy.ops.wm.save_as_mainfile(filepath=str(Path(__file__).with_name('station.blend')))
     bpy.ops.render.render(write_still=True)
 
 if __name__=='__main__':preview()
