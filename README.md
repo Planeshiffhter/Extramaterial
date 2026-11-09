@@ -12,6 +12,10 @@ Adult character redesign, home/station/train previews, editable Blender files an
 - [Download V2 CPU preview/source ZIP](lily-takes-the-train-v2/Lily_V2_CPU_Preview_Pack.zip)
 - [Activate the prepared gallery website](lily-takes-the-train-v2/WEBSITE_SETUP.md)
 
+## Continue on an 8 GB laptop
+
+[Read the Codex Local handoff](lily-takes-the-train-v2/LOCAL_CODEX_HANDOFF.md). Keep local work to files, code and browser previews; use remote compute for heavy Blender work. The repository includes low-load agent defaults in `AGENTS.md`.
+
 ## Archived V1
 
 The [original 55-second attempt](lily-takes-the-train/) uses the earlier character and is preserved as an archive. It is not the revised reference-matching result.

@@ -137,3 +137,7 @@ the V2 preview renders or a redistributed source-character rig.
 The `audio/` folder contains the complete 55-second narration. `captions/` contains the timed highlighted ASS captions and its licensed Noto font. These reusable media do not imply that the revised full-length film has been rendered.
 
 [Download the complete CPU preview/source ZIP](Lily_V2_CPU_Preview_Pack.zip), unzip it, and open **Gallery.html** for the video and scene previews. The website source is also uploaded; [GitHub Pages activation](WEBSITE_SETUP.md) requires the repository owner because the connected app received HTTP403 for the Pages API.
+
+## Moving to Codex Local
+
+Read [the continuation handoff](LOCAL_CODEX_HANDOFF.md). The complete ZIP also contains that handoff and low-load agent instructions. Unzip and open **Gallery.html** to review the video and scene images without launching Blender.
